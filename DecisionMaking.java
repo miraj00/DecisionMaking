@@ -25,11 +25,11 @@ public class DecisionMaking {
 			System.out.println( num + " and Odd " );                // If the integer entered is odd, print the number entered and “Odd.” (i.e. “3 and Odd”)
 		}	
 
-		if ( (num%2==0) && (num >2) && (num <25)) {					// If the integer entered is even and in the inclusive range of 2 to 25, print “Even and less than 25.”
+		if ( (num%2==0) && (num >=2) && (num <=25)) {					// If the integer entered is even and in the inclusive range of 2 to 25, print “Even and less than 25.”
 			System.out.println( "Even and less than 25" );
 		}
 
- 		if ( (num%2==0) && (num >26) && (num <60)) {				// If the integer entered is even and in the inclusive range of 26 to 60, print “Even.”
+ 		if ( (num%2==0) && (num >=26) && (num <=60)) {				// If the integer entered is even and in the inclusive range of 26 to 60, print “Even.”
 			System.out.println( "Even" );
 		}
 
